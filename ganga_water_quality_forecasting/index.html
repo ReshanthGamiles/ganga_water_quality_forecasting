@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganga Water Quality Forecast</title>
+</head>
+<body>
+    <h1>Ganga River Water Quality Forecast</h1>
+    
+    <h2>Real-time Weather Data</h2>
+    <pre>{{ weather_data | tojson }}</pre>
+    
+    <h2>IoT Sensor Data</h2>
+    <pre>{{ sensor_data | tojson }}</pre>
+    
+    <h2>Forecasted Water Quality</h2>
+    <pre>{{ forecast | tojson }}</pre>
+</body>
+</html>
